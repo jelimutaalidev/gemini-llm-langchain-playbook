@@ -79,14 +79,14 @@ Just click the badge below to open in Google Colab:
 
 > ⚠️ **Note:** Update the `your-username` part with your GitHub username once the repo is public.
 ---
-## 🧪 Try Modules in Colab
 
-| 📁 Module            | 🔗 Open in Colab                             |
-|---------------------|----------------------------------------------|
-| google_generative_ai | [🔹 demo_invoke.ipynb](https://colab.research.google.com/github/your-username/gemini-llm-langchain-playbook/blob/main/modules/google_generative_ai/demo_invoke.ipynb) |
-| chat_google_genai | *(Coming Soon)*                              |
-| tools             | [🛠️ demo_tools_integration.ipynb](https://colab.research.google.com/github/your-username/gemini-llm-langchain-playbook/blob/main/modules/tools/demo_tools_integration.ipynb) |
-| memory            | [🧠 demo_memory_chain.ipynb](https://colab.research.google.com/github/your-username/gemini-llm-langchain-playbook/blob/main/modules/memory/demo_memory_chain.ipynb) |
+## 🧪 Try Modules in Colab
+| 📁 Module            | 🔗 Notebooks in Colab                       |
+|---------------------|---------------------------------------------|
+| google_generative_ai | [🔹 Basic Invoke](https://colab.research.google.com/github/your-username/gemini-llm-langchain-playbook/blob/main/modules/google_generative_ai/demo_invoke.ipynb)<br>[🔸 Advanced Features](https://colab.research.google.com/github/your-username/gemini-llm-langchain-playbook/blob/main/modules/google_generative_ai/advanced_demo.ipynb) |
+| chat_google_genai | *(Coming Soon)*                            |
+| tools             | [🛠️ Tools Integration](https://colab.research.google.com/github/your-username/gemini-llm-langchain-playbook/blob/main/modules/tools/demo_tools_integration.ipynb)<br>[⚙️ Custom Tools](https://colab.research.google.com/github/your-username/gemini-llm-langchain-playbook/blob/main/modules/tools/custom_tools.ipynb) |
+| memory            | [🧠 Memory Chain](https://colab.research.google.com/github/your-username/gemini-llm-langchain-playbook/blob/main/modules/memory/demo_memory_chain.ipynb)<br>[📚 Conversation Buffer](https://colab.research.google.com/github/your-username/gemini-llm-langchain-playbook/blob/main/modules/memory/conversation_buffer.ipynb) |
 
 ---
 ## 📸 Screenshots & Visuals
