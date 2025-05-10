@@ -59,31 +59,6 @@ gemini-llm-langchain-playbook/
 | `memory`               | Shows how Gemini can retain and use memory via LangChain         | 🔸 Memory chains                    |
 
 ---
-
-## 🚀 Getting Started
-
-### 🔧 1. Install Dependencies
-```bash
-pip install -r requirements.txt
-```
-### 📥 2. Enable Google Generative AI (Gemini)
-
-Get your Gemini API key from:  
-👉 [https://makersuite.google.com/app/apikey](https://makersuite.google.com/app/apikey)
-
-#### 🔐 Set API Key
-
-Set it as an environment variable (Linux/macOS):
-
-```bash
-export GOOGLE_API_KEY=your_api_key_here
-```
-Or set it directly in your notebook or Python script:
-```bash
-import os
-os.environ["GOOGLE_API_KEY"] = "your_api_key_here"
-```
----
 ## 🧠 Features Demonstrated
 
 - 🎯 **Simple Usage** → `.invoke()`
@@ -103,6 +78,16 @@ Just click the badge below to open in Google Colab:
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/your-username/gemini-llm-langchain-playbook)
 
 > ⚠️ **Note:** Update the `your-username` part with your GitHub username once the repo is public.
+---
+## 🧪 Try Modules in Colab
+
+| 📁 Module            | 🔗 Open in Colab                             |
+|---------------------|----------------------------------------------|
+| google_generative_ai | [🔹 demo_invoke.ipynb](https://colab.research.google.com/github/your-username/gemini-llm-langchain-playbook/blob/main/modules/google_generative_ai/demo_invoke.ipynb) |
+| chat_google_genai | *(Coming Soon)*                              |
+| tools             | [🛠️ demo_tools_integration.ipynb](https://colab.research.google.com/github/your-username/gemini-llm-langchain-playbook/blob/main/modules/tools/demo_tools_integration.ipynb) |
+| memory            | [🧠 demo_memory_chain.ipynb](https://colab.research.google.com/github/your-username/gemini-llm-langchain-playbook/blob/main/modules/memory/demo_memory_chain.ipynb) |
+
 ---
 ## 📸 Screenshots & Visuals
 
