@@ -22,15 +22,31 @@ This repository serves as a modular and practical **playbook** for using [Google
 
 ```bash
 gemini-llm-langchain-playbook/
-├── modules/
-│   ├── google_generative_ai/           # 📌 Core usage of GoogleGenerativeAI class
+├── modules/                            # 📚 Core modules and demos
+│   ├── README.md                       # 📑 General explanation of the 'modules' folder structure and purpose
+│   ├── google_generative_ai/           # 📌 Basic usage of the GoogleGenerativeAI class
+│   │   ├── README.md                   # 📑 Explanation of the basic usage of GoogleGenerativeAI
+│   │   ├── demo_invoke.ipynb           # 🔹 Demo of the Invoke usage
+│   │   ├── demo_batch.ipynb            # 🔹 Demo of the Batch usage
+│   │   ├── demo_async.ipynb            # 🔹 Demo of the Async usage
+│   │   ├── demo_stream.ipynb           # 🔹 Demo of the Stream usage
+│   │   └── utils.py                    # 🔧 Utility functions supporting basic usage
 │   ├── chat_google_genai/              # 💬 Chat model integration (Coming Soon)
+│   │   ├── README.md                   # 📑 Explanation of ChatGoogleGenerativeAI and chat workflows
+│   │   ├── demo_chat_workflow.ipynb    # 💬 Example of implementing chat with Gemini
+│   │   └── utils.py                    # 🔧 Supporting functions and classes for chat workflows
 │   ├── tools/                          # 🛠️ Gemini + LangChain Tools demo
-│   └── memory/                         # 🧠 Gemini with memory chains
+│   │   ├── README.md                   # 📑 Explanation of using Gemini with LangChain tools
+│   │   ├── demo_tools_integration.ipynb # 🛠️ Example of integrating Gemini tools with LangChain
+│   │   └── utils.py                    # 🔧 Supporting functions for tools integration
+│   └── memory/                         # 🧠 Demo of memory usage with Gemini
+│       ├── README.md                   # 📑 Explanation of using memory in LangChain with Gemini
+│       ├── demo_memory_chain.ipynb     # 🧠 Example of using memory in a Gemini workflow
+│       └── utils.py                    # 🔧 Supporting functions for memory usage
 ├── assets/                             # 📸 Diagrams & screenshots
 ├── requirements.txt                    # 🔧 Dependencies list
-├── LICENSE
-└── README.md                           # 📘 You're here!
+├── LICENSE                             # 📜 License information
+└── README.md                           # 📘 You're here! Main documentation file
 ```
 
 ## 🧪 Core Modules & Demos
